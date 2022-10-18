@@ -1,17 +1,14 @@
 package loops;
 import java.util.*;
-
-public class Pattern {
+public class For {
 
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
-		int n= sc.nextInt();
-		//Square
-		for(int i=1;i<=n;i++)
+		int n = sc.nextInt();
+		for(int i=0;i<n;i++)
 		{
-			System.out.println("***");
+			System.out.println("Hello world");
 		}
-		
 
 	}
 
